@@ -50,11 +50,7 @@ def test_auth_chrome(driver_chrome):
     time.sleep(3)
     lessons_page.click_last_video_fullscreen()
     time.sleep(10)
-    # lessons_page.click_last_video_stop()
-    # time.sleep(2)
 
-    # lessons_page.click_last_video_fullscreen_exit()
-    # time.sleep(3)
     lessons_page.click_last_pause()
     time.sleep(3)
 
